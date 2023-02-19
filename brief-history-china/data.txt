@@ -1,0 +1,210 @@
+var arr1 = [
+    {
+        year:'1950',
+        title:'1950s',//标题
+        href:'',
+        content:'',
+        docs:[
+            {
+                size: '0.72',//字体大小
+                title: 'red',
+                point: '4411',//位置
+                article: [
+                    {
+                        year: 1951,
+                        title: 'CHINA EMBARGO VOTED, 45-0, IN U.N.',
+                        href: 'https://www.nytimes.com/1951/05/18/archives/voting-for-un-arms-embargo-on-red-china-red-china-embargo-voted-450.html'
+                    },
+                    {
+                        year: 1955,
+                        title: 'CHINA ACCUSES WRITER AS U. S. SPY',
+                        href: 'https://www.nytimes.com/1955/06/16/archives/red-china-accuses-writer-as-u-s-spy.html'
+                    },
+                    {
+                        year: 1958,
+                        title: 'CHINA DECRIES U.S. ESCORT ACTION',
+                        href: 'https://www.nytimes.com/1958/09/08/archives/mass-demonstrations-reported-red-china-decries-us-escort-action.html'
+                    }]
+            },
+            {
+                size: '0.86',//字体大小
+                title: 'nationalist',
+                point: '597',//位置
+                article: [
+                    {
+                    year: 1949,
+                    title: 'CHINA EMBARGO VOTED, 45-0, IN U.N.',
+                    href: 'https://www.nytimes.com/1949/04/30/archives/chinese-reds-trap-nationalist-force-south-of-yangtze-amphibious.html'
+                    },
+                    {
+                        year: 1949,
+                        title: 'WHITE PAPER BLUNT Stresses That Chinese Nationalists Failed to Utilize Past Help',
+                        href: 'https://www.nytimes.com/1949/08/06/archives/white-paper-blunt-stresses-that-chinese-nationalists-failed-to.html'
+                    },
+                    {
+                        year: 1950,
+                        title: 'TIENTSIN SET AS TARGET; Nationalists Say They Soon Will Attack North China Port',
+                        href: 'https://www.nytimes.com/1950/03/01/archives/tientsin-set-as-target-nationalists-say-they-soon-will-attack-north.html'
+                    }]
+            },
+            {
+                size: '0.65',//字体大小
+                title: 'U.N.',
+                point: '587',//位置
+                article: [
+                    {
+                    year: 1950,
+                    title: 'HIFT IN U.N. JOB POSES CHINA ISSUE; Tsiang, as Security Council\'s Head, to Face 3 Members Who Recognize Reds',
+                    href: 'https://www.nytimes.com/1950/01/02/archives/shift-in-un-job-poses-china-issue-tsiang-as-security-councils-head.html'
+                    },
+                    {
+                        year: 1950,
+                        title: 'China Quits U.N. Health Body',
+                        href: 'https://www.nytimes.com/1950/05/07/archives/china-quits-un-health-body.html'
+                    },
+                    {
+                        year: 1950,
+                        title: 'U.N. Chief Outlines Plan to Solve Issue of Representation of China in the World Body...',
+                        href: 'https://www.nytimes.com/1950/05/16/archives/stalin-lie-discuss-eastwest-tension-in-90minute-talk-un-chief.html'
+                    }
+                    ]
+            },
+            {
+                size: '0.73',//字体大小
+                title: 'aid',
+                point: '618',//位置
+                article: [{
+                    title: 'Child Fund to Study China Aid',
+                    href: 'https://www.nytimes.com/1949/01/17/archives/child-fund-to-study-china-aid.html'
+                },{
+                    title: 'CA IS ABANDONING AID PLAN FOR CHINA; Hoffman\'s Idea of Continuing Help on a Trial Basis Has Apparently Been Dropped',
+                    href: 'https://www.nytimes.com/1949/02/08/archives/eca-is-abandoning-aid-plan-for-china-hoffmans-idea-of-continuing.html'
+                },{
+                    title: 'Many in Congress Criticize Proposal to Halt Aid to China; Many in Congress Assail Proposal To Abandon Assistance to Chinese\'',
+                    href: 'https://www.nytimes.com/1949/08/06/archives/many-in-congress-criticize-proposal-to-halt-aid-to-china-many-in.html'
+                }]
+            },
+            {
+                size: '0.94',//字体大小
+                title: 'korea',
+                point: '498',//位置
+                article: [{
+                    title: 'MANPOWER AND SUPPLY--KEY PROBLEMS FOR AMERICA IN FIGHTING THE KOREAN WAR',
+                    href: 'https://www.nytimes.com/1950/07/09/archives/the-news-of-the-week-in-review-manpower-and-supplykey-problems-for.html'
+                },{
+                    title: 'China Reds Hit American Stand on Korea and Formosa in All-Out Propaganda Victory for Korea Reds Seen Derisive Note in Drive',
+                    href: 'https://www.nytimes.com/1950/08/01/archives/peiping-increases-drive-against-us-china-reds-hit-american-stand-on.html'
+                }]
+            },
+            {
+                size: '0.68',//字体大小
+                title: 'war',
+                point: '486',//位置
+                article: [{
+                    title: 'Mao Thanks Stalin for Aid In China\'s War on Japan',
+                    href: 'https://www.nytimes.com/1951/09/03/archives/mao-thanks-stalin-for-aid-in-chinas-war-on-japan.html'
+                },{
+                    title: 'WE HAVE WON KEY AREA BUT KOREA WAR GOES ON; U.N.\'s Greatest Victory Over Chinese, Like Earlier Ones, Is Indecisive',
+                    href: 'https://www.nytimes.com/1951/06/17/archives/we-have-won-key-area-but-korea-war-goes-on-uns-greatest-victory.html'
+                },{
+                    title: 'STAFF CHIEFS PLAN NEW STEPS TO AID WAR IN INDO-CHINA;',
+                    href: 'https://www.nytimes.com/1954/03/22/archives/staff-chiefs-plan-new-steps-to-aid-war-in-indochina-consider.html'
+                }]
+            },
+            {
+                size: '0.69',//字体大小
+                title: 'trade',
+                point: '434',//位置
+                article: [{
+                    title: 'ALLIES PRESS U.S. ON CHINA TRADE; Seek Approval for a Rise-- Five Concerns and Bank Lose Export Privileges Dulles Voices Interest\'',
+                    href: 'https://www.nytimes.com/1957/03/29/archives/allies-press-us-on-china-trade-seek-approval-for-a-rise-five.html'
+                },{
+                    title: 'CHINA TRADE WIDENED BUT VOLUME IS SMALL; Political Reasons Lie Behind Ban On Exchange of Strategic Goods Strategic Goods Britain\'s Exports Factors Involved Individual Cases',
+                    href: 'https://www.nytimes.com/1957/04/28/archives/china-trade-widened-but-volume-is-small-political-reasons-lie.html'
+                },{
+                    title: 'Japan\'s China Trade Doubles',
+                    href: 'https://www.nytimes.com/1957/01/24/archives/japans-china-trade-doubles.html'
+                }]
+            },
+            {
+                size: '0.73',//字体大小
+                title: 'communist',
+                point: '796',//位置
+                article: [{
+                    title: 'STALIN SEES CHOU; PACT MAY BE TOPIC; FOREIGN MINISTER OF COMMUNIST CHINA IN MOSCOW',
+                    href: 'https://www.nytimes.com/1950/01/23/archives/stalin-sees-chou-pact-may-be-topic-foreign-minister-of-communist.html'
+                },{
+                    title: 'Lie Sees British About Compromise To Get Communist China Into U.N.; LIE MEETS BRITISH; COMPROMISE SEEN 20-Year Truce Sought by Lie',
+                    href: 'https://www.nytimes.com/1950/05/24/archives/lie-sees-british-about-compromise-to-get-communist-china-into-un.html'
+                },{
+                    title: 'SABOTAGE IN RED CHINA; Heavy Economy Losses Admitted by Communist News Agency',
+                    href: 'https://www.nytimes.com/1950/08/24/archives/sabotage-in-red-china-heavy-economy-losses-admitted-by-communist.html'
+                }]
+            },
+            {
+                size: '0.62',//字体大小
+                title: 'policy',
+                point: '405',//位置
+                article: [{
+                    title: '',
+                    href: ''
+                }]
+            },
+            {
+                size: '0.82',//字体大小
+                title: 'british',
+                point: '305',//位置
+                article: [{
+                    title: '',
+                    href: ''
+                }]
+            },
+            {
+                size: '0.99',//字体大小
+                title: 'formosa',
+                point: '303',//位置
+                article: [{
+                    title: 'IN JAPAN AND FORMOSA: TWO OUTPOSTS REPORT...',
+                    href: 'https://www.nytimes.com/1950/07/09/archives/in-japan-and-formosa-two-outposts-report-us-soldiers-find-the.html'
+                },{
+                    title: 'China Nationalists Use Japanese Language In Unifying Formosans Against Communism',
+                    href: 'https://www.nytimes.com/1950/07/22/archives/china-nationalists-use-japanese-language-in-unifying-formosans.html'
+                },{
+                    title: 'FORMOSAN PLANES ALERT HONG KONG; Spitfires Patrol Colony After P-51\'s Fly Over En Route to Raid Chinese Red Trucks 1,000 Killed or Wounded Nationalists Raid Namoa',
+                    href: 'https://www.nytimes.com/1950/02/27/archives/formosan-planes-alert-hong-kong-spitfires-patrol-colony-after-p51s.html'
+                }]
+            },
+
+        ]
+    },{
+        year:'1978',
+        title:'标题2',//标题
+        href:'',
+        content:'中国改革开放',
+        docs:[
+            {
+                size: '0.7',//字体大小
+                title: '单词一',
+                point: '0.8',//位置
+                article: [
+                    {
+                        title: '文章一',
+                        href: ''
+                    },
+                    {
+                        title: '文章二',
+                        href: ''
+                    }]
+            },
+            {
+                size: '0.9',//字体大小
+                title: '单词二',
+                point: '0.3',//位置
+                article: [{
+                    title: '',
+                    href: ''
+                }]
+            }
+        ]
+    }
+]
